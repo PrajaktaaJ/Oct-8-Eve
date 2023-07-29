@@ -16,8 +16,8 @@ public class BrowserSetup {
 
 	public static WebDriver openChromeBrowser() {
 		
-		    System.setProperty("webdriver.chrome.driver", "D:\\Velocity\\Selenium Software\\firefox\\geckodriver.exe" );
-			WebDriver driver = new ChromeDriver();
+		   // System.setProperty("webdriver.chrome.driver", "D:\\Velocity\\Selenium Software\\firefox\\geckodriver.exe" );
+			//WebDriver driver = new ChromeDriver();
 			return driver;
 	}
 	
